@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        a {
+            font: larger;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: rgb(0, 0, 0)
+        }
+
+        .queen {
+            background-color: rgb(9, 112, 52);
+            font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: block;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        #queens {
+            height: 60%;
+            width: 40%;
+            border: 20px solid rgb(16, 255, 135);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #queens:hover {
+            transform: rotate(260deg);
+        }
+
+
+        .king {
+            background-color: rgb(11, 27, 179);
+            font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: block;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        #kings {
+            height: 60%;
+            width: 40%;
+            border: 20px solid rgb(38, 77, 252);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #kings:hover {
+            transform: rotate(260deg);
+        }
+
+        .bishop {
+            background-color: rgb(122, 0, 0);
+            font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: block;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        #bishops {
+            height: 60%;
+            width: 40%;
+            border: 20px solid rgb(255, 7, 7);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #bishops:hover {
+            transform: rotate(260deg);
+        }
+
+        .knight {
+            background-color: rgb(141, 115, 0);
+            font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: block;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        /* alt + shift +  f */
+        /* to comment ctrl + / */
+        #knights {
+            height: 60%;
+            width: 40%;
+            border: 20px solid rgb(248, 233, 15);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #knights:hover {
+            transform: rotate(260deg);
+        }
+
+        .rookie {
+            background-color: rgb(46, 3, 102);
+            font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: block;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        #rookies {
+            height: 60%;
+            width: 40%;
+            border: 20px solid rgb(140, 12, 245);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #rookies:hover {
+            transform: rotate(260deg);
+        }
+
+        .pawn {
+            background-color: rgb(0, 128, 106);
+            font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: block;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        #pawns {
+            height: 60%;
+            width: 40%;
+            border: 20px solid rgb(19, 255, 224);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #pawns:hover {
+            transform: rotate(260deg);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+</head>
+
+<body>
+    <div class="king">
+        <h1>King</h1>
+        <p>The king is weak but is an important piece .</p>
+        <img id="kings" src="./king.jpg">
+    </div>
+
+
+    <div class="queen">
+        <!-- 2 img patrick and h1 and p. in p tag describe patrick -->
+        <h1>Queen</h1>
+        <p>Queen is strongest piece in the game. She can move anywhere except she is blocked</p>
+        <img id="queens" src="./queen.jpg">
+
+    </div>
+
+    <div class="bishop">
+        <h1>Bishop</h1>
+        <p>The Bishop move diagnally </p>
+        <img id="bishops" src="./bishop.jpg">
+    </div>
+
+    <div class="knight">
+        <h1>Knight</h1>
+        <p>The knight can skip its enemy</p>
+        <img id="knights" src="./knight.jpg">
+    </div>
+
+    <div class="rookie">
+        <h1>Rookie</h1>
+        <p>The rookie can move to side </p>
+        <img id="rookies" src="./rookie.jpg">
+    </div>
+
+    <div class="pawn">
+        <h1>Pawn</h1>
+        <p>The pawn can only move one at a time but at the beguining it can move 2 up </p>
+        <img id="pawns" src="./pawn.png">
+    </div>
+
+
+
+
+    <!--1 div for each chess piece
+    1 paragraph explaining how they move (p tag to be centered and font)
+    style the images (at least 2 styling for every image)
+
+-->
+</body>
+
+</html>
